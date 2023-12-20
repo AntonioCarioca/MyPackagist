@@ -1,0 +1,23 @@
+{
+    "name": "xxzeroxx/mypackagist",
+    "description": "Aprendendo a criar um packagist composer",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Zero\\Mypackagist\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antonio Silva",
+            "email": "a.silva@mailfence.com",
+            "homepage": "https://dev.to/xxzeroxx",
+            "role": "PHP Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.0"
+    }
+}
