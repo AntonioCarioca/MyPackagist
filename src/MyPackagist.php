@@ -6,7 +6,7 @@ class MyPackagist
 {
 	public static function show(string $message): void
 	{
-		echo 'This is your message: ' . $message
+		echo 'This is your message: ' . $message;
 	}
 
 	public static function user(string $name): void
